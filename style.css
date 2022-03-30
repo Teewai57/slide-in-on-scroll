@@ -1,9 +1,10 @@
 html {
     box-sizing: border-box;
     background: #ffc600;
-    font-family: 'helvetica neue';
+    font-family: 'Poppins', sans-serif !important;
     font-size: 20px;
     font-weight: 200;
+
 }
 
 body {
@@ -54,4 +55,13 @@ h1 {
 .slide-in.active {
     opacity: 1;
     transform: translateX(0%) scale(1);
+}
+
+@media (max-width:425px) {
+    h1{
+        font-size: 30px !important;
+    }
+    p{
+        font-size: 15px;
+    }
 }
